@@ -1,0 +1,24 @@
+[XML] Exportando: Factura #001 - Total: 150000
+[Correo] Enviando: Factura #001 - Total: 150000
+[FirmaLocal] Firmando: Factura #001 - Total: 150000
+---
+[PDF] Exportando: Nota Credito #002 - Total: 45000
+[WhatsApp] Enviando: Nota Credito #002 - Total: 45000
+[FirmaEnNube] Firmando: Nota Credito #002 - Total: 45000
+---
+[JSON] Exportando: Nota Debito #003 - Total: 32000
+[PortalWeb] Enviando: Nota Debito #003 - Total: 32000
+[FirmaHSM] Firmando: Nota Debito #003 - Total: 32000
+---
+[XML] Exportando: Comprobante Retencion #004 - Total: 12000
+[PortalWeb] Enviando: Comprobante Retencion #004 - Total: 12000
+[FirmaEnNube] Firmando: Comprobante Retencion #004 - Total: 12000
+---
+[JSON] Exportando: Factura #001 - Total: 150000
+[Correo] Enviando: Factura #001 - Total: 150000
+[FirmaHSM] Firmando: Factura #001 - Total: 150000
+---
+[EDI] Exportando: Nota Credito #002 - Total: 45000
+[Correo] Enviando: Nota Credito #002 - Total: 45000
+[FirmaLocal] Firmando: Nota Credito #002 - Total: 45000
+---

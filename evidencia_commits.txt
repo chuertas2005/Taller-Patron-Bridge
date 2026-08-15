@@ -1,0 +1,35 @@
+commit c7bb6356288b8a75240588984a2b2efb4490b14b
+Author: Cruz <cruz@example.com>
+Date:   Sat Aug 15 02:43:05 2026 +0000
+
+    Extension: agregar ExportadorEDI sin modificar Comprobante ni sus subclases
+
+ src/ExportadorEDI.java | 13 +++++++++++++
+ src/Main.java          |  4 +++-
+ 2 files changed, 16 insertions(+), 1 deletion(-)
+
+commit 9cddb14e15ead431d43f0e3eecd4af004a6ca045
+Author: Cruz <cruz@example.com>
+Date:   Sat Aug 15 02:42:52 2026 +0000
+
+    Implementacion base del patron Bridge (facturacion multi-formato)
+
+ src/CanalEnvio.java           |  8 ++++++++
+ src/Comprobante.java          | 27 +++++++++++++++++++++++++++
+ src/ComprobanteRetencion.java | 12 ++++++++++++
+ src/EnvioCorreo.java          |  7 +++++++
+ src/EnvioPortalWeb.java       |  7 +++++++
+ src/EnvioWhatsApp.java        |  7 +++++++
+ src/ExportadorFormato.java    |  8 ++++++++
+ src/ExportadorJSON.java       |  7 +++++++
+ src/ExportadorPDF.java        |  7 +++++++
+ src/ExportadorXML.java        |  7 +++++++
+ src/FacturaVenta.java         | 12 ++++++++++++
+ src/FirmaEnNube.java          |  7 +++++++
+ src/FirmaHSM.java             |  7 +++++++
+ src/FirmaLocal.java           |  7 +++++++
+ src/Main.java                 | 20 ++++++++++++++++++++
+ src/NotaCredito.java          | 12 ++++++++++++
+ src/NotaDebito.java           | 12 ++++++++++++
+ src/ProveedorFirma.java       |  8 ++++++++
+ 18 files changed, 182 insertions(+)
